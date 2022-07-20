@@ -21,6 +21,8 @@ public class ServletSelectAll extends HttpServlet {
         request.getRequestDispatcher("/index.jsp").forward(request, response);  //请求转发
 
 
+
+
     }
 
     @Override
