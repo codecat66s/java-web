@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div name="addBrandDiv" align="center">
+        <h1>新增商品</h1>
+        <form action="/ServletAddBrand" method="post" name="addBrand">
+            <p>品牌名称：<input type="text" name="name"></p>
+            <P>品牌描述：<textarea rows="8" cols="15" name="description"></textarea></P>
+            <p>状态：<input type="radio" name="status" value="1">启用  <input type="radio" name="status" value="0">禁用</p>
+            <p><input type="submit" value="提交"></p>
+        </form>
+    </div>
+
+</body>
+</html>
