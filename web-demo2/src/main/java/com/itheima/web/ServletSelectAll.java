@@ -20,7 +20,7 @@ public class ServletSelectAll extends HttpServlet {
         request.setAttribute("brands",brands);
         request.getRequestDispatcher("/index.jsp").forward(request, response);  //请求转发
 
-        /*lss */
+        /*lss --*/
 
     }
 
